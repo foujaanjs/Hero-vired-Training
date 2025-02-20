@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: goldenrod;
+}
+
+
+.intro{
+    display: flex;
+
+    padding: 10vw;
+    flex-grow: 2;
+    flex-wrap:wrap;
+    flex-basis: 50%;
+    column-gap: 50%;
+}
+
+p{
+    margin-top: 5%;
+}
+
+.skills{
+    display: flex;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+    
+}
+
+.internal{
+    margin-top: 3vw;
+    padding: 2vw;
+    margin-bottom: 2vw;
+    flex-wrap: wrap;
+   
+}
+
+.projects{
+ 
+    padding: 30px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+}
+    
+
+
+.contact{
+    padding: 40px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+  
+li{
+    padding-left: 10%;
+    
+    justify-content: space-between;
+}
+
+
